@@ -12,12 +12,12 @@ background-color: #ece9e9;}
  width: 100%;
  max-width: 1200px;
  margin: 0 auto;
-
 }
 
 .tittle{
 
     text-align: center;
+    text-shadow: 0px 0px 5px color#333;
 }
 .heading{
 padding: 20px 0 5px;
@@ -33,9 +33,8 @@ color: #444;
 }
 .mother{ 
 
-    display: flex;
-    gap: 0;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
     
 }
 
@@ -56,8 +55,7 @@ color: #444;
     background-position-x: center;
     display: flex;
     align-items: flex-end;
-    color: #555;
-    /* border-style: ridge; */
+    color: #f7f4f4c5;
     box-shadow: 0px 0px 3px 0px #353535;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,139 +89,96 @@ color: #444;
 
 }
 
-.colum_1_3{ 
+
+
+.column_1_3{
 
     width: 33.33%;
-    padding: 20px;
+    padding: 15px;
 }
 
-
-.colum_2_3{
+.column_2_3{
 
     width: 66.66%;
-    padding: 0px;
-   box-sizing: border-box;
-}
-
-.colum_2_2{
-
-    min-width: 100%;
-    padding: 20px;
     
 }
 
+.column_2_2{
 
-.colum_1_2 {
-    min-width: 50%;
-    padding: 20px;
+    width: 100%; 
+    padding: 15px;
     
 }
+.column_1_2{
 
-
-
-
-
-
-.tittle{
-
-    padding: 0 30%;
+    width: 50%;
+    padding: 15px;
+   
 }
 
-.box01{
 
-    background-color: #20222145;
+
+.box_1 {
+    background-image: url(../images/bottle.jpg);
+    background-color: #abacad;
     padding: 30px;
     background-blend-mode: multiply;
+    min-height: 635px;
     border-radius: 15px;
     background-size: cover;
     background-position-x: center;
     display: flex;
     align-items: flex-end;
-    color: #d4d1d1;
-    /* border-style: ridge; */
+    color: #cecbcbee;
     box-shadow: 0px 0px 3px 0px #353535;
     background-position: center;
-    
-
-
-}
-
-.box02 {
-    background-color: #20222145;
-    padding: 30px;
-    background-blend-mode: multiply;
-    border-radius: 15px;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    color: #d4d1d1;
-    /* border-style: ridge; */
-    box-shadow: 0px 0px 3px 0px #353535;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: center;
-    
 }
-
-
-
-.box03{
-
-    background-color: #20222145;
-    padding: 20px;
-    background-blend-mode: multiply;
-    border-radius: 15px;
-    background-size: cover;
-    background-position-x: center;
-    display: flex;
-    align-items: flex-end;
-    color: #d4d1d1;
-    /* border-style: ridge; */
-    box-shadow: 0px 0px 3px 0px #353535;
-   
-
-
-
-}
-
-.box04{
-
-    background-color: #20222145;
+.box_2 {
+    background-image: url(../images/headphone.jpg);
+    background-color: #c1a53070;
     padding: 30px;
     background-blend-mode: multiply;
+    min-height: 300px;
     border-radius: 15px;
+    background-size: cover;
     display: flex;
     align-items: flex-end;
-    color: #d4d1d1;
-    /* border-style: ridge; */
+    color: #cecbcbee;
     box-shadow: 0px 0px 3px 0px #353535;
-    object-fit: cover;
-    overflow-x: auto;
-    background-size: cover;
-    background-position-x: center;
-    
-
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.box01 {
-    min-height: 600px;
-    background-image: url(../images/bottle.jpg);
-}
-
-.box02 {
-    min-height: 300px;
-    background-image: url(../images/headphone.jpg);
-}
-
-.box03 {
-    min-height: 300px;
+.box_3 {
     background-image: url(../images/packet.jpg);
-    width: 350px;
+    background-color: #8f908c;
+    padding: 30px;
+    background-blend-mode: multiply;
+    min-height: 300px;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    color: #cecbcbee;
+    box-shadow: 0px 0px 3px 0px #353535;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.box04 {
-    min-height: 300px;
+.box_4 {
     background-image: url(../images/minibottle.jpg);
-    width: 350px;
-    
+    background-color: #00000069;
+    padding: 30px;
+    background-blend-mode: multiply;
+    min-height: 300px;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    color: #cecbcbee;
+    box-shadow: 0px 0px 3px 0px #353535;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
